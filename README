@@ -1,0 +1,15 @@
+Install 7Zip or another archive manager; unpack the simplescalar3.0 tar file
+
+Install the Windows Subsystem for Linux (preferably with Debian) or use a Linux OS.
+
+Install the "make" and "gcc" packages using the Linux terminal
+
+Open the Linux terminal within the simplescalar3.0 folder, or change the terminal directory to that folder
+
+run "make config-pisa" and then "make" (make config-alpha changes to alpha configuration instead, not sure what the difference is)
+
+There are several sim- executables to run; sim-outorder is the most complex simulator, we will be using this one to have access to the most features.
+
+To run the executable, run "./sim-outorder <file path>" in the Linux terminal
+
+"./sim-outorder ./tests-pisa/bin.little/test-math" runs the sim-outorder benchmarks for the test-math sample executable
