@@ -13,3 +13,6 @@ There are several sim- executables to run; sim-outorder is the most complex simu
 To run the executable, run "./sim-outorder <file path>" in the Linux terminal
 
 "./sim-outorder ./tests-pisa/bin.little/test-math" runs the sim-outorder benchmarks for the test-math sample executable
+
+
+After changing and/or replacing the sim-outorder.c file, the make commands will have to be run again before testing the executable.
